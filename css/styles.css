@@ -1,0 +1,113 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --logo-black-color: #000000;
+    --additional-contact-color: rgba(255, 255, 255, 0.6);
+    --bcg-footer-color: #2F303A;
+    --bcg-secondary-color: #F5F4FA;
+}
+
+body {
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+}
+
+/* Лого */
+
+.header-logo {
+    color: var(--logo-black-color);
+}
+
+.footer-logo {
+    color: var(--white-color);
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav a {
+    color: var(--title-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .current {
+    color: var(--accent-color);
+}
+
+/* Heder contacts */
+
+.header-contacts a {
+    color: var(--primary-text-color);
+}
+
+.header-contacts a:hover,
+.header-contacts a:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+    background-color: var(--bcg-footer-color);
+}
+
+.hero-title {
+    color: var(--white-color);
+}
+
+/* Section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+/* Team */
+
+.team-list .title {
+    color: var(--title-text-color);
+}
+
+/* Button */
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--bcg-secondary-color);
+}
+
+.button.primary {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+
+
+
+
+
+/* Font Raleway Weight 700 */
+/* Font Roboto Weight 500 */
+/* Font Roboto Weight 900 */
+/* Font Roboto Weight 700 */
+/* Font Roboto Weight 400 */
+
+/* цвет основого текста - #757575 */
+/* вторичный цвет текста - #212121 */
+/* акцент -  #2196F3*/
+/* белый - #FFFFFF */
+/* лого-черный  - #000000 */
+/* дополнительный цвет контактов футера - rgba(255, 255, 255, 0.6) */
