@@ -10,17 +10,35 @@
 }
 
 body {
-    background-color: var(--white-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    background-color: var(--white-color);
+}
+
+/* Header */
+
+.header-nav a {
+    text-decoration: none;
 }
 
 /* Лого */
 
+.name {
+    font-family: Raleway, sans-serif;
+}
+
 .header-logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
     color: var(--logo-black-color);
 }
 
-.footer-logo {
+.footer-logo {   
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
     color: var(--white-color);
 }
 
@@ -31,6 +49,10 @@ body {
 /* Site nav */
 
 .site-nav a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--title-text-color);
 }
 
@@ -46,6 +68,11 @@ body {
 /* Heder contacts */
 
 .header-contacts a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
     color: var(--primary-text-color);
 }
 
@@ -61,53 +88,128 @@ body {
 }
 
 .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color); 
+}
+
+/* Button */
+
+.button {
+    font-family: inherit;
+    cursor: pointer;
+    color: var(--title-text-color);
+    background-color: var(--bcg-secondary-color);
+}
+
+.button.primary {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.button.secondary {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    background-color: var(--accent-color);
     color: var(--white-color);
 }
 
 /* Section */
 
 .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
     color: var(--title-text-color);
 }
 
 /* Features */
 
 .feature-list .title {
-    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-text-color); 
+}
+
+.feature-list .text {
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 /* Team */
 
 .team-list .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19px;
     color: var(--title-text-color);
 }
 
-/* Button */
-
-.button {
-    color: var(--title-text-color);
-    background-color: var(--bcg-secondary-color);
+.team-list .text {
+    font-size: 16px;
+    line-height: 1.19;
 }
 
-.button.primary {
+/* Works */
+
+.works .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.works .text { 
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--primary-text-color);
+}
+
+.works a {
+    text-decoration: none;
+}
+
+/* Footer */
+
+.page-footer {
+    background-color: var(--bcg-footer-color);
+}
+
+.page-footer a {
+    text-decoration: none;
+}
+
+.footer-contacts a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--additional-contact-color);
+}
+
+.footer-contacts .address-info {
     color: var(--white-color);
-    background-color: var(--accent-color);
 }
 
-
-
-
-
-
-/* Font Raleway Weight 700 */
-/* Font Roboto Weight 500 */
-/* Font Roboto Weight 900 */
-/* Font Roboto Weight 700 */
-/* Font Roboto Weight 400 */
-
-/* цвет основого текста - #757575 */
-/* вторичный цвет текста - #212121 */
-/* акцент -  #2196F3*/
-/* белый - #FFFFFF */
-/* лого-черный  - #000000 */
-/* дополнительный цвет контактов футера - rgba(255, 255, 255, 0.6) */
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+    color: var(--accent-color);
+}
