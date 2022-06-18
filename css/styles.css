@@ -16,6 +16,10 @@ body {
     background-color: var(--white-color);
 }
 
+.list {
+    list-style: none;
+}
+
 /* Header */
 
 .header-nav a {
@@ -140,7 +144,7 @@ body {
 
 /* Features */
 
-.feature-list .title {
+.features .title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -148,21 +152,21 @@ body {
     color: var(--title-text-color); 
 }
 
-.feature-list .text {
+.features .text {
     font-size: 14px;
     line-height: 1.71;
 }
 
 /* Team */
 
-.team-list .title {
+.team .title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19px;
+    line-height: 1.19;
     color: var(--title-text-color);
 }
 
-.team-list .text {
+.team .text {
     font-size: 16px;
     line-height: 1.19;
 }
